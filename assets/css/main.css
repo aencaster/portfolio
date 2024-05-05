@@ -1,5 +1,5 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300i,400i");
+
 
 /*
 	Ethereal by HTML5 UP
@@ -330,11 +330,13 @@ input, select, textarea {
 		-ms-transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-bottom-color 0.2s ease-in-out;
 		color: inherit;
-		border-bottom: dotted 1px;
+		padding-bottom: 0;
+		border-bottom: dotted 0.12rem;
 		text-decoration: none;
 	}
 
 		a:hover {
+			padding-bottom: 0.12rem;
 			border-bottom-color: transparent;
 			color: #ffe4b4;
 		}
@@ -385,7 +387,7 @@ input, select, textarea {
 
 	h1 {
 		font-size: 3rem;
-		line-height: 1.2;
+		line-height: 0.9;
 	}
 
 		h1.major {
@@ -397,8 +399,8 @@ input, select, textarea {
 			}
 
 	h2 {
-		font-size: 1.75rem;
-		line-height: 1.2;
+		font-size: 2rem;
+		line-height: 1;
 	}
 
 		h2.major {
@@ -1513,10 +1515,10 @@ input, select, textarea {
 		-webkit-appearance: none;
 		-ms-appearance: none;
 		appearance: none;
-		-moz-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		-webkit-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		-ms-transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
-		transition: background-color 0.2s ease-in-out, box-shadow 0.2s ease-in-out, color 0.2s ease-in-out;
+		-moz-transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
+		-webkit-transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
+		-ms-transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
+		transition: background-color 0.1s ease-in-out, box-shadow 0.1s ease-in-out, color 0.1s ease-in-out;
 		background-color: transparent;
 		border: 0;
 		border-radius: 0.25rem;
@@ -1813,17 +1815,17 @@ input, select, textarea {
 		}
 
 			.gallery .image img {
-				-moz-transition: -moz-transform 0.2s ease-in-out;
-				-webkit-transition: -webkit-transform 0.2s ease-in-out;
-				-ms-transition: -ms-transform 0.2s ease-in-out;
-				transition: transform 0.2s ease-in-out;
+				-moz-transition: -moz-transform 0.1s ease-in-out;
+				-webkit-transition: -webkit-transform 0.1s ease-in-out;
+				-ms-transition: -ms-transform 0.1s ease-in-out;
+				transition: transform 0.1s ease-in-out;
 			}
 
 			.gallery .image:after {
-				-moz-transition: opacity 0.2s ease-in-out;
-				-webkit-transition: opacity 0.2s ease-in-out;
-				-ms-transition: opacity 0.2s ease-in-out;
-				transition: opacity 0.2s ease-in-out;
+				-moz-transition: opacity 0.1s ease-in-out;
+				-webkit-transition: opacity 0.1s ease-in-out;
+				-ms-transition: opacity 0.1s ease-in-out;
+				transition: opacity 0.1s ease-in-out;
 			}
 
 			.gallery .image:hover img {
@@ -1834,7 +1836,7 @@ input, select, textarea {
 			}
 
 			.gallery .image:hover:after {
-				opacity: 0;
+				opacity: 0.5;
 			}
 
 		.gallery .group {
