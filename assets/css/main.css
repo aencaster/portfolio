@@ -1113,7 +1113,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.375);
 		}
 
-		ul li.lst {
+		.lst {
 			margin: 0 0 1.5rem 0;
 		}
 
