@@ -1,3 +1,4 @@
 RewriteEngine On
+Redirect 301 / https://ncstr.xyz/
 RewriteCond %{HTTP_HOST} ^(www\.)?aencaster\.nnttttyyppee\.cc$ [NC]
 RewriteRule ^(.*)$ https://ncstr.xyz/$1 [R=301,L]
